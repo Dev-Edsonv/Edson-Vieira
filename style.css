@@ -87,3 +87,41 @@ body {
     font-size: 12px;
 }
 
+@media (max-width:500px) {
+    body {
+        background-image: url(./img/responsiva.png);
+        background-size: cover;
+    }
+
+    .texts {
+        padding-left: 35px;
+    }
+
+    .texts h1 {
+        font-size: 25px;
+        width: 65%;
+    }
+
+    .texts p {
+        font-size: 12px;
+        line-height: 20px;
+        width: 75vw;
+    }
+
+    .elements  {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .elements img {
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+    }
+
+    .elements p {
+        width: 315px;
+    }
+}
+

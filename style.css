@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --cor-principal: #fff;
+}
+
+body {
+    background-image: url(./img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 20vh;
+    width: 500px;
+    height: auto;
+    left: 15vw;
+}
+
+.texts h1 {
+    color: var(--cor-principal);
+    letter-spacing: 3px;
+    line-height: 35px;
+}
+
+.texts p {
+    width: 510px;
+    color: var(--cor-principal);
+    letter-spacing: 2px;
+    line-height: 25px;
+    margin: 45px 0;
+    font-size: 14px;
+}
+
+.myButtons {
+    width: 150px;
+    height: 40px;
+    font-size: 11px;
+    border: none;
+    border-radius: 8px;
+    color: var(--cor-principal);
+    background-color: #0000ff;
+}
+
+.colorGrey {
+    background-color: #778899;
+    margin-left: 10px;
+}
+
